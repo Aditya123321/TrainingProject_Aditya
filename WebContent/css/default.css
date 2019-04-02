@@ -1,0 +1,136 @@
+.ca_button
+{
+	color:#4fbfa8;
+	border-color: #4fbfa8;
+	margin-left:260px;
+}
+
+<!-- DEAFULT PAGE CSS-->
+#row1
+{
+	background-color:gray;
+	padding-top: 5px;
+}
+#r1_c1
+{
+	padding-top:10px;
+	color:white;
+	margin-left: 100px;
+}
+#r1_c2
+{
+    padding-top:10px;
+	color:white;
+}
+#r1_c3
+{
+	padding-top:10px;
+	color:white;
+}
+#r1_c4_1
+{
+	padding-top:11px;
+	color:white;
+}
+
+.mar{
+	margin-left:100px;
+}
+
+#r2_c1
+{
+	margin-top:20px;
+	width:180px;
+	height:40px;
+}
+.r2_c2
+{
+	margin-top:20px;
+    background-color:white;
+    color:black; 
+    border-color:white;
+}
+#r3_c1
+{
+	padding:40px 40px 40px 10px;
+	font-size:26px;
+}
+#r3_c2
+{
+	padding:50px 25px 25px 10px;
+	font-size:16px;
+}
+#r3_c2_s
+{
+	color:#4fbfa8;
+	font-size: 16px;
+}
+.row1{
+	background-color:gray;
+	color:white;
+	
+}
+.row5
+{
+	background-color:gray;
+	color: white;
+	font-family:Arial;
+	
+}
+.cc{
+	margin-left:100px;
+	
+	}
+.def_cc
+{
+	background-color: black;
+	margin-left:100 px;
+	color: white;
+	font-family:Arial;
+	height:40px;
+}
+
+.mrsil{
+	color: #C0C0C0;
+	}
+	#sc_hr
+{
+	width:100%;
+	margin-left: 0px;
+    border-width: 2px;
+    border-color: #dadada;
+    margin-top:0px;
+}
+.send{
+	background-color:#778899;
+	height:29px;
+	
+	}
+
+.butt2{
+	background-color:#4fbfa8;
+	padding: 5px;
+	border-style:groove;
+	border-color: #4fbfa8;
+	}
+.last{
+	background-color: black;
+	margin:0 px;
+	color: white;
+	font-family:Arial;
+	}
+.def_text
+	{
+		width:250px;
+		height:30px;
+	}
+.def_last_p
+{
+	color:white;
+}
+.sc_hr
+{
+	
+	border-color:#dfdfdf;
+	width:100%;
+}
