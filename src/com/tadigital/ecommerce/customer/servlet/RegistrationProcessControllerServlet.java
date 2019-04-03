@@ -1,4 +1,4 @@
-package com.tadigital.ecommerce.cutomer.servlet;
+package com.tadigital.ecommerce.customer.servlet;
 
 import java.io.IOException;
 
