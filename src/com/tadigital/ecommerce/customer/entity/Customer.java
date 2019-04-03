@@ -59,10 +59,10 @@ public class Customer {
 		public void setCity(String city) {
 			this.city = city;
 		}
-		public String getZip() {
+		public long getZip() {
 			return zip;
 		}
-		public void setZip(String zip) {
+		public void setZip(long zip) {
 			this.zip = zip;
 		}
 		public String getState() {
@@ -77,19 +77,19 @@ public class Customer {
 		public void setCountry(String country) {
 			this.country = country;
 		}
-		public int getMobile() {
+		public String getMobile() {
 			return mobile;
 		}
-		public void setMobile(int mobile) {
+		public void setMobile(String mobile) {
 			this.mobile = mobile;
 		}
 
 		private String address;
 		private String city;
-		private String zip;
+		private long zip;
 		private String state;
 		private String country;
-		private int mobile;
+		private String mobile;
 		
 		
 		public Customer() {
@@ -104,7 +104,7 @@ public class Customer {
 		}*/
 		
 		public Customer(int id, String fName, String lName, String email, String pwd, String gender, String address,
-				String city, String zip, String state, String country, int mobile) {
+				String city, long zip, String state, String country, String mobile) {
 			super();
 			this.id = id;
 			this.fName = fName;
