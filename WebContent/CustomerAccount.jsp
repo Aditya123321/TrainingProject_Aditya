@@ -1,7 +1,5 @@
-
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,9 +17,10 @@
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 <!-- STYLESHEET FOR MAPS -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
+	
+</head>
 <body>
 	<div class="container-fluid">
 		<!--HEAD CONTAINER STARTS -->
@@ -29,20 +28,20 @@
 			<!--ROW 1 STARTS -->
 			
 			<!-- ROW 1 COLUMN 1-->
-			<div class="col-md-6 mar" id="r1_c1">
+			<div class="col-md-7 r1_c1">
 				<p>Contact Us on +91 4066217777</p>
 			</div>
 
 			<!-- ROW 1 COLUMN 2-->
-			<div class="col-md-1 mar" id="r1_c2">
-				<span class="glyphicon glyphicon-log-in"> SIGN IN</span>
-			</div>
-			<!-- ROW 1 COLUMN 3-->
-			<div class="col-md-1" id="r1_c3">
+			<div class="col-md-2 r1_c2">
+				<span class="glyphicon glyphicon-log-in"> SIGN IN&nbsp;</span>
+			
+			
+			
 				<span class="glyphicon glyphicon-user"> SIGN UP</span>
 			</div>
 			<!-- ROW 1 COLUMN 4-->
-			<div class="col-md-2" id="r1_c4_1">
+			<div class="col-md-1 r1_c3">
 				<span> <i class="fa fa-facebook"></i></span>
 				 <span id="r1_c4_1"><i class="fa fa-google-plus"></i></span> 
 				 <span id="r1_c4_1"><i class="fa fa-twitter"></i></span> 
@@ -57,51 +56,54 @@
 		
 			<!-- ROW 2 COLUMN 1 -->
 			<div class="col-md-4 mar">
-				<img src="images/logo.png" id="r2_c1">
+				<img src="images/logo.png" class="r2_c1">
 			</div>
 			
 			<!-- ROW 2 COLUMN 2 -->
-			<div class="col-md-6 mar">
+			<div class="col-md-6 ccc">
 				<div class="dropdown">
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						ELECTRONICS <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						MEN <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						WOMEN <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						BABY & KIDS <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">HOME & FURNITURE</button>
-					<span class="caret"></span>
-				</div>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						ELECTRONICS
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						MEN
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						WOMEN
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						BABY & KIDS
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						HOME & FURNITURE
+    						<span class="caret"></span>
+  						</button>
+  						<br>
+  						<br>
+					</div>
 			</div>
 		</div>
 		<!-- ROW 2 ENDS -->
 
 		<!-- ROW 3 STARTS -->
-		<div class="row" id="row3" style="background-image: url(images/texture-bw.png);">
+		<div class="row row3" style="background-image: url(images/texture-bw.png);">
 			
 			<!-- ROW 3 COLUMN 1  -->
-			<div class="col-md-7 mar" id="r3_c1">
+			<div class="col-md-7 r3_c1">
 				<strong>MY ACCOUNT</strong>
 			</div>
 			<!-- ROW 3 COLUMN 2 -->
 			
-			<div class="col-md-3 mar" id="r3_c2">
-				<span id="r3_c2_s">HOME</span>&nbsp; /&nbsp;MY ACCOUNT
+			<div class="col-md-3 r3_c2">
+				<span class="r3_c1_s">HOME</span>&nbsp; /&nbsp;	MY ACCOUNT&nbsp;
 			</div>
 		</div>
 		<!-- ROW 3 ENDS-->
-		
+			
 		<br/>
 		<br/>
 		
@@ -117,12 +119,12 @@
 				<div class="row ca_mar">
 					<span class="ca_r4_c1_sp3">CHANGE PASSWORD</span>
 					<hr class="ca_r4_c1_hr1">
-					<form action="" method="post">
+					<form action="PasswordChange" method="post">
 					<div class="row ca_mar">
 						
 						<div class="col-md-6">
 						<label for="pass" >Old Password:</label><br/>
-						<input type="text" name="oldpwd" id="ca_text">
+						<input type="password" name="f1" id="ca_text">
 						<br/>
 						<br/>
 						</div>
@@ -130,13 +132,13 @@
 					<div class="row ca_mar">
 						<div class="col-md-6">
 						<label for="pass" >New Password:</label><br/>
-						<input type="text" name="oldpwd" id="ca_text">
+						<input type="password" name="f2" id="ca_text">
 						<br/>
 						<br/>
 						</div>
 						<div class="col-md-6">
 						<label for="pass" >Retype New Password:</label><br/>
-						<input type="text" name="oldpwd" id="ca_text">
+						<input type="password" name="f3" id="ca_text">
 						<br/>
 						</div>
 					</div>
@@ -149,6 +151,29 @@
 					</div>
 					</form>
 					
+					<%
+						 
+		 					
+			 					String  c1=(String)session.getAttribute("check3");
+								if(c1!=null){
+			 					if(c1=="-3")
+								{
+			 					%>	
+								<div class="alert alert-danger fade in text-center">Error Updating Password, Please Check Again</div>
+								<%
+								}
+			 					if(c1=="3")
+								{
+			 					%>	
+								<div class="alert alert-success text-center">Password Updated Successfully</div>
+								<%
+								}
+								}
+			
+							 
+
+					%>
+					
 				
 				</div>
 				<br/>
@@ -156,25 +181,25 @@
 				<div class="row ca_mar">
 				<span class="ca_r4_c1_sp3">PERSONAL DETAILS</span>
 				<hr class="ca_r4_c1_hr1">
-					<form action="" method="post">
+					<form action="CustomerAccount" method="post">
 					
 					<div class="row ca_mar">
 						<div class="col-md-6">
 						<label for="pass" >First Name:</label><br/>
-						<input type="text" name="fname" id="ca_text">
+						<input type="text" name="f4" id="ca_text">
 						</div>
 						<div class="col-md-6">
 						<label for="pass" >Last Name:</label><br/>
-						<input type="text" name="lname" id="ca_text">
+						<input type="text" name="f5" id="ca_text">
 						</div>
 					</div>
 					<br/>
 					<div class="row ca_mar">
 						<div class="col-md-6">
 						<label for="pass" >Gender:</label><br/>
-						<input type="radio" name="gender" value="male"/>&nbsp;Male<br/>
-						<input type="radio" name="gender" value="female"/>&nbsp;Female<br/>
-						<input type="radio" name="gender" value="transgender"/>&nbsp;Transgender<br/>
+						<input type="radio" name="f6" value="male"/>&nbsp;Male<br/>
+						<input type="radio" name="f6" value="female"/>&nbsp;Female<br/>
+						<input type="radio" name="f6" value="transgender"/>&nbsp;Transgender<br/>
 						<br/>
 						</div>
 					</div>
@@ -182,7 +207,7 @@
 					<div class="row ca_mar">
 						<div class="col-md-12">
 						Address:<br/>
-						<textarea class="ca_textarea" name="address"></textarea>
+						<textarea class="ca_textarea" name="f7"></textarea>
 						<br/>
 						<br/>
 						</div>
@@ -190,25 +215,35 @@
 					<div class="row ca_mar">
 						<div class="col-md-3">
 						<label for="pass" >City:</label><br/>
-						<input type="text" name="city" id="ca_text">
+						<input type="text" name="f8" id="ca_text">
 						<br/>
 						<br/>
 						</div>
 						<div class="col-md-3">
 						<label for="pass" >Zip:</label><br/>
-						<input type="text" name="zip" id="ca_text">
+						<input type="text" name="f9" id="ca_text">
 						<br/>
 						<br/>
 						</div>
 						<div class="col-md-3">
 						<label for="pass" >State:</label><br/>
-						<input type="text" name="state" id="ca_text">
+						<select name="f10" id="ca_text">
+									<option value="J&k">Jammu & Kashmir</option>
+									<option value="Telengana">Telengana</option>
+									<option value="Haryana">Haryana</option>
+									<option value="Metro Droit">Metro Detroit</option>
+								</select>
 						<br/>
 						<br/>
 						</div>
 						<div class="col-md-3">
 						<label for="pass" >Country:</label><br/>
-						<input type="text" name="country" id="ca_text">
+						<select name="f11"  id="ca_text">
+					  				<option value="India">India</option>
+									<option value="U.S.">U.S.</option>
+									<option value="U.K.">U.K.</option>
+									<option value="Canada">Canada</option>
+								</select>	
 						<br/>
 						<br/>
 						</div>
@@ -217,13 +252,13 @@
 					<div class="row ca_mar">
 						<div class="col-md-6">
 						<label for="pass" >Contact Number:</label><br/>
-						<input type="text" name="mobile" id="ca_text">
+						<input type="text" name="f12" id="ca_text">
 						<br/>
 						<br/>
 						</div>
 						<div class="col-md-6">
 						<label for="pass" >Email:</label><br/>
-						<input type="email" name="email" id="ca_text">
+						<input type="email" name="f13" id="ca_text">
 						<br/>
 						<br/>
 						</div>
@@ -236,8 +271,29 @@
 	 						</button>
 					</div>
 					</form>
+					
 					<br/>
 					<br/>
+					<%
+						 
+		 					
+			 					String  c=(String)session.getAttribute("check2");
+								if(c!=null){
+			 					if(c=="-5")
+								{
+			 					%>	
+								<div class="alert alert-danger fade in text-center">Details Failed to Update!!</div>
+								<%
+								}
+			 					if(c=="5")
+								{
+			 					%>	
+								<div class="alert alert-success text-center">Details Updated Successfully</div>
+								<%
+								}
+								}
+			
+					%>		
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -269,14 +325,15 @@
 			
 		
 		</div>
-		
+		<a href="check.jsp">Click</a>
 		
 		
 		<!-- ROW 5 STARTS -->
-		<div class="row row5">
+				<!-- ROW 5 STARTS -->
+		<div class="row row1">
 	 		<br><br>
 	 		<!-- COL1 STARTS -->
-			<div class="col-md-3 cc">
+			<div class="col-md-3 mar">
 	 			<b>About Us</b>
 	 			<br/>
 	 			<br/>
@@ -334,20 +391,20 @@
 			</div>
 			<!-- COL4 ENDS -->
 		</div>
-		<!-- ROW 5 ENDS -->
+		<!-- ROW6 ENDS -->
 			
-		<!-- ROW 6 STARTS -->
+		<!-- ROW7 STARTS -->
 		<div class="row last">
 			<!-- COL1 STARTS -->
-			<div div class="col-md-3 cc">
+			<div class="col-md-3 mar">
 				<br>
-				<p style="color: white;"><span class="glyphicon glyphicon-copyright-mark"> 2018</span>
-				TechAspect Solutions Private Limited
+				<p style="color: white;"><span class="glyphicon glyphicon-copyright-mark">&nbsp;2018.</span>
+				TechAspect Solutions Private Limited.
 			</div>
 			<!-- COL1 ENDS -->
 		</div>
-		<!-- ROW 6 ENDS -->
-	</div>
+		<!-- ROW6 ENDS -->
+	</div>>
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
