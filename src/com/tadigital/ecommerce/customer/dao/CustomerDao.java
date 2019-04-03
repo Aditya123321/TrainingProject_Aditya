@@ -32,9 +32,9 @@ public class CustomerDao extends Dao {
 			{
 				flag=true;
 				
-				//customer.setId(rs.getInt(1));
-				//customer.setfName(rs.getString(2));
-				//customer.setlName(rs.getString(3));
+				customer.setId(rs.getInt(1));
+				customer.setfName(rs.getString(2));
+				customer.setlName(rs.getString(3));
 				//customer.setGender(rs.getString(6));
 				//customer.setAddress(rs.getString(7));
 				//customer.setCity(rs.getString(8));
@@ -93,6 +93,67 @@ public class CustomerDao extends Dao {
 	}
 	
 	
-
+	public boolean updateCustomerPasswordById(Customer customer)
+	{
+		boolean status = false;
+		Connection con = openConnection();
+		Statement stmt = openStatement(con);
+		
+		try {
+			
+			System.out.println("hello try 1");
+			String sql = "UPDATE customer_user SET cust_pwd = '" + customer.getPwd() +"' WHERE cust_id='"+customer.getId()+"'";
+			System.out.println("id "+customer.getId());
+			int row = stmt.executeUpdate(sql);
+			System.out.println(row);
+			if(row!=0) {
+				status = true;
+				
+			}
+		} catch (SQLException sqle) {
+			sqle.printStackTrace();
+		} finally {
+			closeStatement(stmt);
+			closeConnection(con);
+		}
+		System.out.println("From Dao"+status);
+		return status;
+		
+	}
+	
+	public boolean updateCustomerById(Customer customer)
+	{
+		boolean status = false;
+		Connection con = openConnection();
+		Statement stmt = openStatement(con);
+		ResultSet rs = null;
+		System.out.println("DAO"+status);
+		
+		try {
+			
+			
+			String sql = "UPDATE customer_user SET cust_fname='"+customer.getfName()+"', cust_lname='" +customer.getlName()+"', cust_email='"+customer.getEmail()+"', cust_gender = '" + customer.getGender() +"', cust_address='" +customer.getAddress()+"', cust_city='" +customer.getCity()+"',  cust_zip='"+customer.getZip()+"', cust_state='"+customer.getState()+"' ,cust_country='"+customer.getCountry()+"', cust_mobile='"+customer.getMobile()+"' WHERE cust_id='"+customer.getId()+"'";
+			
+			int row = stmt.executeUpdate(sql);
+			if(row!=0) {
+				status = true;
+				
+			}
+		} catch (SQLException sqle) {
+			sqle.printStackTrace();
+		} finally {
+			closeStatement(stmt);
+			closeResultSet(rs);
+			closeConnection(con);
+		}
+		
+		return status;
+		
+	}
+	public boolean updateLastLoginTime(Customer customer)
+	{
+		return false;
+		
+	}
 }
 
