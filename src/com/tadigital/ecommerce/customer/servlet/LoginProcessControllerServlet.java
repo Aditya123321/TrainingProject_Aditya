@@ -1,4 +1,4 @@
-package com.tadigital.ecommerce.cutomer.servlet;
+package com.tadigital.ecommerce.customer.servlet;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -29,12 +29,13 @@ import com.tadigital.ecommerce.customer.service.CustomerService;
 			customer.setEmail(email);
 			customer.setPwd(password);
 			
+			
 			CustomerService customerService = new CustomerService();
 			boolean status = customerService.loginCustomer(customer);	
 			if(status) {
 				
 				HttpSession ses = req.getSession();
-				ses.setAttribute("customerINFO", customer);
+				ses.setAttribute("CUSTOMERDATA", customer);
 				ses.setAttribute("check","1");
 				RequestDispatcher rd = req.getRequestDispatcher("CustomerAccount.jsp");
 				rd.forward(req, resp);
