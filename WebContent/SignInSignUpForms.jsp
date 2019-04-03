@@ -1,4 +1,5 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,20 +28,20 @@
 			<!--ROW 1 STARTS -->
 			
 			<!-- ROW 1 COLUMN 1-->
-			<div class="col-md-6 mar" id="r1_c1">
+			<div class="col-md-7 r1_c1">
 				<p>Contact Us on +91 4066217777</p>
 			</div>
 
 			<!-- ROW 1 COLUMN 2-->
-			<div class="col-md-1 mar" id="r1_c2">
-				<span class="glyphicon glyphicon-log-in"> SIGN IN</span>
-			</div>
-			<!-- ROW 1 COLUMN 3-->
-			<div class="col-md-1" id="r1_c3">
+			<div class="col-md-2 r1_c2">
+				<span class="glyphicon glyphicon-log-in"> SIGN IN&nbsp;</span>
+			
+			
+			
 				<span class="glyphicon glyphicon-user"> SIGN UP</span>
 			</div>
 			<!-- ROW 1 COLUMN 4-->
-			<div class="col-md-2" id="r1_c4_1">
+			<div class="col-md-1 r1_c3">
 				<span> <i class="fa fa-facebook"></i></span>
 				 <span id="r1_c4_1"><i class="fa fa-google-plus"></i></span> 
 				 <span id="r1_c4_1"><i class="fa fa-twitter"></i></span> 
@@ -55,47 +56,50 @@
 		
 			<!-- ROW 2 COLUMN 1 -->
 			<div class="col-md-4 mar">
-				<img src="images/logo.png" id="r2_c1">
+				<img src="images/logo.png" class="r2_c1">
 			</div>
 			
 			<!-- ROW 2 COLUMN 2 -->
-			<div class="col-md-6 mar">
+			<div class="col-md-6 ccc">
 				<div class="dropdown">
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						ELECTRONICS <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						MEN <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						WOMEN <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">
-						BABY & KIDS <span class="caret"></span>
-					</button>
-					<button class="btn btn-primary dropdown-toggle r2_c2" type="button"
-						data-toggle="dropdown">HOME & FURNITURE</button>
-					<span class="caret"></span>
-				</div>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						ELECTRONICS
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						MEN
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						WOMEN
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						BABY & KIDS
+    						<span class="caret"></span>
+  						</button>
+  						<button class="btn btn-default dropdown-toggle menu" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						HOME & FURNITURE
+    						<span class="caret"></span>
+  						</button>
+  						<br>
+  						<br>
+					</div>
 			</div>
 		</div>
 		<!-- ROW 2 ENDS -->
 
 		<!-- ROW 3 STARTS -->
-		<div class="row" id="row3" style="background-image: url(images/texture-bw.png);">
+		<div class="row row3" style="background-image: url(images/texture-bw.png);">
 			
 			<!-- ROW 3 COLUMN 1  -->
-			<div class="col-md-7 mar" id="r3_c1">
+			<div class="col-md-7 r3_c1">
 				<strong>NEW ACCOUNT&nbsp;/&nbsp;SIGN IN</strong>
 			</div>
 			<!-- ROW 3 COLUMN 2 -->
 			
-			<div class="col-md-3 mar" id="r3_c2">
-				<span id="r3_c2_s">HOME</span>&nbsp; /&nbsp;NEW ACCOUNT&nbsp; /&nbsp;SIGN IN
+			<div class="col-md-3 r3_c2">
+				<span class="r3_c1_s">HOME</span>&nbsp; /&nbsp;NEW ACCOUNT&nbsp; /&nbsp;SIGN IN
 			</div>
 		</div>
 		<!-- ROW 3 ENDS-->
@@ -107,11 +111,11 @@
         <div class="row mar">
 			
             <div class="col-md-6">
-            <hr> <p style="text-align:left; font-size:30px"><strong>NEW ACCOUNT</strong></p><br>
-            	<p style="text-align:left; font-size:16px; color:gray">Not yet Registered</p>
-                <p style="font-size: 16px;">With registration with us new world of fashion,fantastic discounts and much more is open to you!The whole process will not take more than a minute.</p>                
+            <hr> <p class="ssu_p_1"><strong>NEW ACCOUNT</strong></p><br>
+            	<p class="ssu_p_2">Not yet Registered</p>
+                <p class="ssu_p_3">With registration with us new world of fashion,fantastic discounts and much more is open to you!The whole process will not take more than a minute.</p>                
                 <br><br>
-                <p style="color:gray">If you have any queries feel free to contact us, out customer service is center is working 24/7</p>
+                <p class="ssu_p_4">If you have any queries feel free to contact us, out customer service is center is working 24/7</p>
                 <form action="register" method="post">
                 	<div class="form-group">
                     	<label for="Name" style="color:gray">Name:</label>
@@ -123,7 +127,7 @@
                     </div>
                     <div class="form-group">
                        <label for="pwd" style="color:gray">Password:</label>
-                       <input type="password" class="form-control" id="pwd" mame="pwd">
+                       <input type="password" class="form-control" id="pwd" name="pwd">
                     </div>
   					<button type="submit" class="btn btn-default ca_button"> <span class="glyphicon glyphicon-user"></span>&nbsp;Register</button><hr>
 				</form>
@@ -153,9 +157,9 @@
 			</div>
           
             <div class="col-md-6">
-            	<hr><p style="text-align:left; font-size:30px"><strong>SIGN IN</strong></p><br>
-                <p style="text-align:left; font-size:16px; color:gray">Already a Customer</p>
-                <p style="font-size: 16px;">Get Access to your orders,whishlist and recommadations</p>
+            	<hr><p class="ssu_p_1"><strong>SIGN IN</strong></p><br>
+                <p class="ssu_p_2">Already a Customer</p>
+                <p class="ssu_p_3">Get Access to your orders,whishlist and recommadations</p>
                 <form action="login" method="post">
                 	<div class="form-group">
                     	<label for="email" style="color:gray">Email address:</label>
@@ -213,16 +217,14 @@
 		
 		
 		
-			<!-- Row 4 Starts -->
-			<div class="row" style="margin-top:10px"></div>
-			<!-- Row 4 Ends -->
+			
 		<br/>
 		<br/>
 		<!-- ROW 5 STARTS -->
 		<div class="row row1">
 	 		<br><br>
 	 		<!-- COL1 STARTS -->
-			<div class="col-md-3 cc">
+			<div class="col-md-3 mar">
 	 			<b>About Us</b>
 	 			<br/>
 	 			<br/>
@@ -285,10 +287,10 @@
 		<!-- ROW7 STARTS -->
 		<div class="row last">
 			<!-- COL1 STARTS -->
-			<div div class="col-md-3 cc">
+			<div class="col-md-3 mar">
 				<br>
-				<p style="color: white;"><span class="glyphicon glyphicon-copyright-mark"> 2018</span>
-				TechAspect Solutions Private Limited
+				<p style="color: white;"><span class="glyphicon glyphicon-copyright-mark">&nbsp;2018.</span>
+				TechAspect Solutions Private Limited.
 			</div>
 			<!-- COL1 ENDS -->
 		</div>
