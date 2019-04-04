@@ -292,6 +292,15 @@ color:gray;
   height: 15px; 
   font-weight: normal;
 }
+.ca_dropdown
+{
+	border-radius: 2px;
+	height: 15px; 
+	font-size:14px;
+	border: 2px;
+	border-style: solid;
+	 padding: 20px;
+}
 .ca_button
 {
 	color:#4fbfa8;
@@ -699,3 +708,4 @@ color:gray;
 	margin-right:100px;
 }
 
+<!-- ////////////////////////////////////////////// -->
