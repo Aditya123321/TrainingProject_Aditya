@@ -1,0 +1,146 @@
+<!-- Customer order details-->
+.od_text_green
+{
+	color:green;
+}
+#od_top_text
+{
+	letter-spacing: 2.3px;
+}
+#od_second_text
+{
+	letter-spacing: 2.3px;
+}
+#od_table
+{
+	margin-left:10px;
+	margin-right: 10px;
+}
+.od_top_row
+{
+	margin-top: 35px;
+}
+#od_column_one
+{
+	margin-right: 200px;
+	margin-left:10px;
+	font-weight: bold;
+}
+#od_column_two
+{
+	margin-right: 95px;
+	font-weight: bold;
+}
+#od_column_three
+{
+	margin-right: 95px;
+	font-weight: bold;
+}
+#od_column_four
+{
+	margin-right: 95px;
+	font-weight: bold;
+}
+#od_column_five
+{
+	margin-right: 95px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+.od_hr_line
+{
+	border-color: #cdcdcd;	
+	width:100%;
+	align="left";
+}
+.od_img
+{
+	width: 50px;
+	height: 50px;
+	margin-right:30px;
+	margin-bottom:15px;
+}
+.od_prod_name
+{
+	margin: 10px 10px 10px 10px;
+}
+.od_quantity_number
+{
+	margin: 10px 10px 10px 37px;
+}
+.od_unit_price
+{
+	margin: 10px 10px 10px 137px;
+}
+.od_discount_price
+{
+	margin: 10px 10px 10px 100px;
+}
+.od_total
+{
+	margin: 10px 10px 10px 95px;
+}
+.od_order_total
+{
+	margin: 10px 10px 10px 570px;
+	font-size: 150%;
+}
+.od_shipping_total
+{
+	margin: 10px 10px 10px 500px;
+	font-size: 150%;
+}
+.od_tax_total
+{
+	margin: 10px 10px 10px 680px;
+	font-size: 150%
+}
+.od_gross
+{
+	margin: 10px 10px 20px 670px;
+	font-size: 150%;
+}
+#od_ship_add
+{
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 150%;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.vertical-menu {
+	width: 200px;
+}
+
+.vertical-menu a {
+	background-color: white;
+	color: teal;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc;
+}
+
+.vertical-menu a.active {
+	background-color: teal;
+	color: white;
+}
+.hrrule2{
+	height: 2px;
+	background-color: teal;
+	border: none;
+	width:30%;
+	float:left;
+	}
+.color_ta
+{
+	color:#02d1fd;
+}
+.od_hr_line1
+{
+	border-color: #c0c0c0;
+	margin-top:20px;
+}
